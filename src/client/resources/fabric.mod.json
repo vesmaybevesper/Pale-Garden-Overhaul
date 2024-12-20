@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "pale-world",
+	"version": "${version}",
+	"name": "Pale World",
+	"description": "Overhauls the Pale Garden.",
+	"authors": [
+		"VesMaybeVesper"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/VesMaybeVesper",
+		"sources": ""
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "vesper.pgo.PaleWorld"
+		],
+		"client": [
+			"vesper.pgo.PaleWorldClient"
+		]
+	},
+	"mixins": [
+		"pgo.mixins.json",
+		{
+			"config": "pgo-client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

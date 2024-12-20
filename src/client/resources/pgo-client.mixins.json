@@ -1,9 +1,8 @@
 {
 	"required": true,
-	"package": "com.example.mixin.client",
+	"package": "vesper.pgo.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-      "vesper.pgo.mixin.client.ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

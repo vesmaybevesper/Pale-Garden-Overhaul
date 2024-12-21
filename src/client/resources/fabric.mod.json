@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"vesper.pgo.PaleWorldClient"
+		],
+		"terrablender": [
+			"vesper/pgo/Biomes/PaleWorldTerraBlenderApi"
 		]
 	},
 	"mixins": [

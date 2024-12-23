@@ -3,17 +3,18 @@ package vesper.pgo;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import vesper.pgo.Biomes.ModBiomes;
 
 public class DataGen implements DataGeneratorEntrypoint {
     @Override
-    public void onInitializeDataGenerator (FabricDataGenerator fabricDataGen){
-    FabricDataGenerator.Pack pack = fabricDataGen.createPack();
+    public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
+        FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
     }
 
     @Override
-    public void buildRegistry(RegistryBuilder regBuild){
-        regBuild.addRegistry(RegistryKeys.BIOME, ModBiomes::bootstrap);
+    public void buildRegistry(RegistryBuilder registryBuilder) {
+        registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::bootstrap);
     }
 }

@@ -1,4 +1,4 @@
-version:4177
+version:4189
 ao:true
 biomeBlendRadius:2
 enableVsync:true
@@ -80,7 +80,7 @@ rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true

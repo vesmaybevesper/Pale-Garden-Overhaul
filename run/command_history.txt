@@ -3,3 +3,4 @@
 /seed
 /locate biome minecraft:pale_garden
 /tp @s -3244 144 -1597
+/locate biome terrablender:deferred_placeholder

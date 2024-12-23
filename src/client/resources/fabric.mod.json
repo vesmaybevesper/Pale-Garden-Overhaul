@@ -21,8 +21,11 @@
 		"client": [
 			"vesper.pgo.PaleWorldClient"
 		],
+		"fabric-datagen": [
+			"vesper.pgo.DataGen"
+		],
 		"terrablender": [
-			"vesper/pgo/Biomes/PaleWorldTerraBlenderApi"
+			"vesper.pgo.Biomes.PaleWorldTerraBlenderApi"
 		]
 	},
 	"mixins": [
